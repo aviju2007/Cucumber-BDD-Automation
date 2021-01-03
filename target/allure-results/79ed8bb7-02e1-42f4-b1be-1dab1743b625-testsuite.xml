@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1609253498887" stop="1609253587388" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page.</name>
+    <description type="text">       After that Logout from the theFA.com.</description>
+    <test-cases>
+        <test-case start="1609253499078" stop="1609253587385" status="broken">
+            <name>Browse and validate sample flow in womens football</name>
+            <title>Browse and validate sample flow in womens football</title>
+            <description type="text"></description>
+            <failure>
+                <message>IndexOutOfBoundsException: Index 3 out of bounds for length 3</message>
+                <stack-trace>java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 3&#13;
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)&#13;
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)&#13;
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)&#13;
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)&#13;
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)&#13;
+	at com.sun.proxy.$Proxy25.get(Unknown Source)&#13;
+	at com.cucumberFramework.pageObjects.LoginLogoutPage.visibilityOfItemsInCarousel(LoginLogoutPage.java:245)&#13;
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_click_on_one_of_article_in_carousel(loginLogoutPageStepDefinitions.java:151)&#13;
+	at ✽.When I click on one of article in the carousel(src/test/resources/features/login/football.feature:24)&#13;
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1609253511259" stop="1609253566710" status="passed">
+                    <name>Given I am on the Home Page for "https://womenscompetitions.thefa.com/"</name>
+                    <title>Given I am on the Home Page for "https://womenscompetitions.thefa.com/"</title>
+                </step>
+                <step start="1609253566711" stop="1609253584287" status="passed">
+                    <name>Then I click on For Girls section</name>
+                    <title>Then I click on For Girls section</title>
+                </step>
+                <step start="1609253584288" stop="1609253584407" status="passed">
+                    <name>Then I should be able to see Get Inspire Section</name>
+                    <title>Then I should be able to see Get Inspire Section</title>
+                </step>
+                <step start="1609253584408" stop="1609253584690" status="broken">
+                    <name>When I click on one of article in the carousel</name>
+                    <title>When I click on one of article in the carousel</title>
+                </step>
+                <step start="1609253584690" stop="1609253584694" status="canceled">
+                    <name>Then I can see the corresponding label</name>
+                    <title>Then I can see the corresponding label</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="a298e5f2-3b04-423b-87e5-669b7cd78936-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Browse and validate sample flow in womens football"/>
+                <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+                <label name="host" value="DESKTOP-E7DOC76"/>
+                <label name="thread" value="14424@DESKTOP-E7DOC76.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

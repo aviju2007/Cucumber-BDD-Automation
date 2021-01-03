@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1609250705757" stop="1609250829666" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page.</name>
+    <description type="text">       After that Logout from the theFA.com.</description>
+    <test-cases>
+        <test-case start="1609250706875" stop="1609250829663" status="broken">
+            <name>Browse and validate sample flow in womens football</name>
+            <title>Browse and validate sample flow in womens football</title>
+            <description type="text"></description>
+            <failure>
+                <message>TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'logo')]/a/img/@src' (tried for 60 second(s) with 500 milliseconds interval)</message>
+                <stack-trace>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'logo')]/a/img/@src' (tried for 60 second(s) with 500 milliseconds interval)&#13;
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)&#13;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)&#13;
+	at com.cucumberFramework.helper.WaitHelper.WaitForElement(WaitHelper.java:23)&#13;
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_am_on_the_homepage_of_WLC(loginLogoutPageStepDefinitions.java:131)&#13;
+	at ✽.Given I am on the Home Page for "https://womenscompetitions.thefa.com/"(src/test/resources/features/login/football.feature:21)&#13;
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//div[contains(@class,'logo')]/a/img/@src" is: [object Attr]. It should be an element.
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-E7DOC76', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 556b7099592d21cb47b6a93a1fd51963
+*** Element info: {Using=xpath, value=//div[contains(@class,'logo')]/a/img/@src}&#13;
+	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)&#13;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)&#13;
+	at com.cucumberFramework.helper.WaitHelper.WaitForElement(WaitHelper.java:23)&#13;
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_am_on_the_homepage_of_WLC(loginLogoutPageStepDefinitions.java:131)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#13;
+	at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;
+	at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)&#13;
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)&#13;
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)&#13;
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:28)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:632)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)&#13;
+	at org.testng.TestNG.run(TestNG.java:1064)&#13;
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)&#13;
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)&#13;
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)&#13;
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#13;
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#13;
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#13;
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1609250745523" stop="1609250825781" status="broken">
+                    <name>Given I am on the Home Page for "https://womenscompetitions.thefa.com/"</name>
+                    <title>Given I am on the Home Page for "https://womenscompetitions.thefa.com/"</title>
+                </step>
+                <step start="1609250825783" stop="1609250825788" status="canceled">
+                    <name>Then I click on For Girls section</name>
+                    <title>Then I click on For Girls section</title>
+                </step>
+                <step start="1609250825789" stop="1609250825789" status="canceled">
+                    <name>Then I should be able to see Get Inspire Section</name>
+                    <title>Then I should be able to see Get Inspire Section</title>
+                </step>
+                <step start="1609250825789" stop="1609250825789" status="canceled">
+                    <name>When I click on one of article in the carousel</name>
+                    <title>When I click on one of article in the carousel</title>
+                </step>
+                <step start="1609250825790" stop="1609250825790" status="canceled">
+                    <name>Then I can see the corresponding label</name>
+                    <title>Then I can see the corresponding label</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="6131d8c4-c49a-4784-83f6-c7fb4a22b351-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Browse and validate sample flow in womens football"/>
+                <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+                <label name="host" value="DESKTOP-E7DOC76"/>
+                <label name="thread" value="14768@DESKTOP-E7DOC76.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

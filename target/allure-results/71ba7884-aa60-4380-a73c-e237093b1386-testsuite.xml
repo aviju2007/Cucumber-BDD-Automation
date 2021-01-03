@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1609252109590" stop="1609252180245" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page.</name>
+    <description type="text">       After that Logout from the theFA.com.</description>
+    <test-cases>
+        <test-case start="1609252109779" stop="1609252180237" status="broken">
+            <name>Browse and validate sample flow in womens football</name>
+            <title>Browse and validate sample flow in womens football</title>
+            <description type="text"></description>
+            <failure>
+                <message>InvalidSelectorException: invalid selector: The result of the xpath expression "//div[contains(@class,'logo')]/a/img/@src" is: [object Attr]. It should be an element.
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-E7DOC76', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53025}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8241f1a06ac1bca87da4a96f54260dd7
+*** Element info: {Using=xpath, value=//div[contains(@class,'logo')]/a/img/@src}</message>
+                <stack-trace>org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//div[contains(@class,'logo')]/a/img/@src" is: [object Attr]. It should be an element.
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-E7DOC76', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53025}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8241f1a06ac1bca87da4a96f54260dd7
+*** Element info: {Using=xpath, value=//div[contains(@class,'logo')]/a/img/@src}&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy24.isDisplayed(Unknown Source)&#13;
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_am_on_the_homepage_of_WLC(loginLogoutPageStepDefinitions.java:132)&#13;
+	at ✽.Given I am on the Home Page for "https://womenscompetitions.thefa.com/"(src/test/resources/features/login/football.feature:21)&#13;
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1609252123914" stop="1609252177138" status="broken">
+                    <name>Given I am on the Home Page for "https://womenscompetitions.thefa.com/"</name>
+                    <title>Given I am on the Home Page for "https://womenscompetitions.thefa.com/"</title>
+                </step>
+                <step start="1609252177139" stop="1609252177142" status="canceled">
+                    <name>Then I click on For Girls section</name>
+                    <title>Then I click on For Girls section</title>
+                </step>
+                <step start="1609252177143" stop="1609252177143" status="canceled">
+                    <name>Then I should be able to see Get Inspire Section</name>
+                    <title>Then I should be able to see Get Inspire Section</title>
+                </step>
+                <step start="1609252177143" stop="1609252177143" status="canceled">
+                    <name>When I click on one of article in the carousel</name>
+                    <title>When I click on one of article in the carousel</title>
+                </step>
+                <step start="1609252177144" stop="1609252177144" status="canceled">
+                    <name>Then I can see the corresponding label</name>
+                    <title>Then I can see the corresponding label</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="ddf1248c-f93e-4f90-a116-c2a058137363-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Browse and validate sample flow in womens football"/>
+                <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+                <label name="host" value="DESKTOP-E7DOC76"/>
+                <label name="thread" value="15076@DESKTOP-E7DOC76.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

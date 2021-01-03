@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1609259569011" stop="1609259637422" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page.</name>
+    <description type="text">       After that Logout from the theFA.com.</description>
+    <test-cases>
+        <test-case start="1609259569092" stop="1609259637416" status="passed">
+            <name>Login into the application with valid credentials</name>
+            <title>Login into the application with valid credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1609259588922" stop="1609259608508" status="passed">
+                    <name>Given I am on the Home Page for FA "https://www.thefa.com/"</name>
+                    <title>Given I am on the Home Page for FA "https://www.thefa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609259608510" stop="1609259614840" status="passed">
+                    <name>Then I click on sign in link and wait for sign in page</name>
+                    <title>Then I click on sign in link and wait for sign in page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609259614841" stop="1609259614881" status="passed">
+                    <name>Then I should see FA Sign In Page</name>
+                    <title>Then I should see FA Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609259614881" stop="1609259615159" status="passed">
+                    <name>When I enter username in FA as "qafaplus@gmail.com"</name>
+                    <title>When I enter username in FA as "qafaplus@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609259615159" stop="1609259615301" status="passed">
+                    <name>And I enter password in FA as "Qwerty123qa"</name>
+                    <title>And I enter password in FA as "Qwerty123qa"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609259615301" stop="1609259633293" status="passed">
+                    <name>And click on Sign in button</name>
+                    <title>And click on Sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609259633293" stop="1609259633374" status="passed">
+                    <name>Then I am logged in to FA</name>
+                    <title>Then I am logged in to FA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="817ce80f-b120-4f69-85de-81ac3a9823c1-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with valid credentials"/>
+                <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+                <label name="host" value="DESKTOP-E7DOC76"/>
+                <label name="thread" value="7740@DESKTOP-E7DOC76.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

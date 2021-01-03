@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1609254102804" stop="1609254169383" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page.</name>
+    <description type="text">       After that Logout from the theFA.com.</description>
+    <test-cases>
+        <test-case start="1609254103279" stop="1609254169375" status="passed">
+            <name>Browse and validate sample flow in womens football</name>
+            <title>Browse and validate sample flow in womens football</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1609254115995" stop="1609254144261" status="passed">
+                    <name>Given I am on the Home Page for "https://womenscompetitions.thefa.com/"</name>
+                    <title>Given I am on the Home Page for "https://womenscompetitions.thefa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609254144262" stop="1609254156065" status="passed">
+                    <name>Then I click on For Girls section</name>
+                    <title>Then I click on For Girls section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609254156067" stop="1609254156188" status="passed">
+                    <name>Then I should be able to see Get Inspire Section</name>
+                    <title>Then I should be able to see Get Inspire Section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609254156188" stop="1609254165751" status="passed">
+                    <name>When I click on one of article in the carousel</name>
+                    <title>When I click on one of article in the carousel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1609254165751" stop="1609254166038" status="passed">
+                    <name>Then I can see the corresponding label</name>
+                    <title>Then I can see the corresponding label</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="1d708720-1132-4133-bab1-c78a3e92b600-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Browse and validate sample flow in womens football"/>
+                <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+                <label name="host" value="DESKTOP-E7DOC76"/>
+                <label name="thread" value="14304@DESKTOP-E7DOC76.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page."/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

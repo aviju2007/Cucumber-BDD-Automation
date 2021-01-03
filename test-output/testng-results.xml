@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-29T16:32:46Z" name="Default suite" finished-at="2020-12-29T16:33:59Z" duration-ms="72123">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@3b2e5c0d]" name="feature" class="com.cucumberFramework.testRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-12-29T16:32:46Z" name="Default test" finished-at="2020-12-29T16:33:59Z" duration-ms="72123">
+      <class name="com.cucumberFramework.testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@3b2e5c0d]" started-at="2020-12-29T22:02:47Z" name="setUpClass" finished-at="2020-12-29T22:02:48Z" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@3b2e5c0d]" started-at="2020-12-29T22:02:48Z" name="feature" description="Runs cucmber Features" data-provider="features" finished-at="2020-12-29T22:03:59Z" duration-ms="70316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[As a football I should be able to signin in theFa.com with valid credentials.Navigate to Squad Page by clicking on Men Senior Page.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@3b2e5c0d]" started-at="2020-12-29T22:03:59Z" name="testDownClass" finished-at="2020-12-29T22:03:59Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- com.cucumberFramework.testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
